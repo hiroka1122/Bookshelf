@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'kaminari-bootstrap', '~> 3.0.1'
+gem 'kaminari', '~> 0.17.0'
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
-
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
